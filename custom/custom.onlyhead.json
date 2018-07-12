@@ -1,0 +1,98 @@
+{
+  "custom.onlyhead": {
+    "bones": [
+      {
+        "name": "head",
+        "pivot": [ 0, 24, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 4, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ]
+          }
+        ]
+      },
+      {
+        "name": "hat",
+        "pivot": [ 0, 24, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 4, -4 ],
+            "inflate": 0.5,
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ]
+          }
+        ],
+        "parent": "body"
+      },
+      {
+        "name": "body",
+        "pivot": [ 0, 24, 0 ],
+        "cubes": []
+      },
+      {
+        "name": "rightArm",
+        "reset": true,
+        "pivot": [ -5, 22, 0 ],
+        "cubes": []
+      },
+      {
+        "name": "leftArm",
+        "reset": true,
+        "mirror": false,
+        "pivot": [ 5, 22, 0 ],
+        "cubes": []
+      },
+      {
+        "name": "rightLeg",
+        "pivot": [ -1.9, 12, 0 ],
+        "cubes": []
+      },
+      {
+        "name": "leftLeg",
+        "reset": true,
+        "mirror": false,
+        "pivot": [ 1.9, 12, 0 ],
+        "cubes": []
+      },
+      {
+        "name": "rightItem",
+        "pivot": [ -6, 15, 1 ],
+        "neverRender": true,
+        "parent": "rightArm"
+      },
+      {
+        "name": "leftSleeve",
+        "pivot": [ 5, 22, 0 ],
+        "cubes": [],
+        "material": "alpha"
+      },
+      {
+        "name": "rightSleeve",
+        "pivot": [ -5, 22, 0 ],
+        "cubes": [],
+        "material": "alpha"
+      },
+      {
+        "name": "leftPants",
+        "pivot": [ 1.9, 12, 0 ],
+        "cubes": [],
+        "pos": [ 1.9, 12, 0 ],
+        "material": "alpha"
+      },
+      {
+        "name": "rightPants",
+        "pivot": [ -1.9, 12, 0 ],
+        "cubes": [],
+        "pos": [ -1.9, 12, 0 ],
+        "material": "alpha"
+      },
+      {
+        "name": "jacket",
+        "pivot": [ 0, 24, 0 ],
+        "cubes": [],
+        "material": "alpha"
+      }
+    ]
+  }
+}
