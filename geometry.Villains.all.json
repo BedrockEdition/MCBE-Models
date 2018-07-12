@@ -1,0 +1,5121 @@
+{
+  "geometry.Villains.Bisector": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 1, 0, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 1, 0, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 1, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.CakeManiac": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 15, 2 ],
+            "size": [ 8, 8, 5 ],
+            "uv": [ 0, 51 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 2, 14, 3 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 2, 13, 2 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 0, 2 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -2, 13, 2 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 0, 2 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -2, 14, 3 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 1, 25, -5 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 48, 54 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -2, 25, -5 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 38, 54 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 2, 24, -5 ],
+            "size": [ 2, 1, 1 ],
+            "uv": [ 50, 52 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -4, 24, -5 ],
+            "size": [ 2, 1, 1 ],
+            "uv": [ 34, 52 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 25, -5 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 36, 50 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 25, -5 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 54, 50 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -2, 21, -4 ],
+            "size": [ 4, 3, 1 ],
+            "uv": [ 32, 60 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1, 26, -5 ],
+            "size": [ 2, 1, 1 ],
+            "uv": [ 42, 54 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Doorman": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 22, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -5 ],
+            "size": [ 8, 8, 1 ],
+            "uv": [ 39, 7 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -1, 32, -4 ],
+            "size": [ 2, 1, 8 ],
+            "uv": [ 1, 33 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -1, 26, 4 ],
+            "size": [ 2, 7, 1 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 46, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1.192093e-7, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.DungeonSpector": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 12, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 12, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Enchantro": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3, 14, 2 ],
+            "size": [ 6, 8, 2 ],
+            "uv": [ 0, 54 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 8, 23, -2 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 60, 24 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 8, 23, 1 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 56, 24 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 7, 24, -1 ],
+            "size": [ 2, 2, 2 ],
+            "uv": [ 56, 20 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 8, 22, -1 ],
+            "size": [ 1, 2, 2 ],
+            "uv": [ 57, 26 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -9, 23, -2 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 60, 24 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -9, 23, 1 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 56, 24 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -9, 24, -1 ],
+            "size": [ 2, 2, 2 ],
+            "uv": [ 56, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -9, 22, -1 ],
+            "size": [ 1, 2, 2 ],
+            "uv": [ 57, 26 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Endergaunt": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -2, 29, 6 ],
+            "size": [ 4, 2, 1 ],
+            "uv": [ 22, 52 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3, 26, 4 ],
+            "size": [ 6, 6, 2 ],
+            "uv": [ 19, 56 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Eyece": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3, 12, -1 ],
+            "size": [ 6, 12, 2 ],
+            "uv": [ 48, 50 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 2, 31, -5 ],
+            "size": [ 3, 3, 2 ],
+            "uv": [ 30, 38 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 31, -5 ],
+            "size": [ 3, 3, 2 ],
+            "uv": [ 30, 38 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 34, -4 ],
+            "size": [ 2, 1, 1 ],
+            "uv": [ 26, 38 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 34, 1 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 24, 42 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 34, 1 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 24, 42 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 3, 34, -4 ],
+            "size": [ 2, 1, 1 ],
+            "uv": [ 26, 38 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 33, -3 ],
+            "size": [ 2, 2, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 3, 33, -3 ],
+            "size": [ 2, 2, 4 ],
+            "uv": [ 28, 32 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 3, 31, -3 ],
+            "size": [ 2, 2, 1 ],
+            "uv": [ 24, 33 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 31, -3 ],
+            "size": [ 2, 2, 1 ],
+            "uv": [ 16, 39 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1.192093e-7, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 5, 24, -2 ],
+            "size": [ 1, 2, 1 ],
+            "uv": [ 24, 45 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 5, 24, 1 ],
+            "size": [ 2, 2, 1 ],
+            "uv": [ 27, 43 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 7, 24, -2.344384e-9 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 29, 46 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 7, 24, 1 ],
+            "size": [ 1, 3, 1 ],
+            "uv": [ 33, 44 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 24, -9.245878e-10 ],
+            "size": [ 1, 3, 1 ],
+            "uv": [ 16, 44 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -8, 24, 1 ],
+            "size": [ 3, 1, 1 ],
+            "uv": [ 16, 42 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -6, 24, -2 ],
+            "size": [ 1, 2, 1 ],
+            "uv": [ 20, 45 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Frankencrafter": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 16, -2 ],
+            "size": [ 4, 8, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -7, 12, -1 ],
+            "size": [ 2, 4, 2 ],
+            "uv": [ 56, 26 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1.192093e-7, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.LavaFiend": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4.001448, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4.00055, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 22.57383, -2.459237e-8 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -5, 30, 1 ],
+            "size": [ 1, 5, 1 ],
+            "uv": [ 54, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 2, 30, 4 ],
+            "size": [ 1, 2, 1 ],
+            "uv": [ 58, 31 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3, 30, 4 ],
+            "size": [ 1, 2, 1 ],
+            "uv": [ 54, 31 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 30, 1 ],
+            "size": [ 1, 5, 1 ],
+            "uv": [ 58, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 30, 1.034618e-7 ],
+            "size": [ 1, 2, 1 ],
+            "uv": [ 54, 22 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 30, 1.034618e-7 ],
+            "size": [ 1, 2, 1 ],
+            "uv": [ 58, 22 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 1, 30, 4 ],
+            "size": [ 1, 5, 1 ],
+            "uv": [ 58, 25 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -2, 30, 4 ],
+            "size": [ 1, 5, 1 ],
+            "uv": [ 54, 25 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4.001448, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4.00055, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1.192093e-7, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Patchkin": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": null
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": null
+      },
+      {
+        "pivot": [ 5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -0.1, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -3.9, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -0.1, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ -1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -3.9, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.RedstoneZealot": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 25, 0 ],
+            "size": [ 14, 10, 1 ],
+            "uv": [ 0, 53 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.SilverfishMonger": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 5, 15.5, -3 ],
+            "size": [ 3, 2, 2 ],
+            "uv": [ 54, 18 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 7, 15.5, -2 ],
+            "size": [ 2, 5, 1 ],
+            "uv": [ 54, 28 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 7, 15.5, -1 ],
+            "size": [ 1, 3, 2 ],
+            "uv": [ 54, 13 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 7, 15.5, 1 ],
+            "size": [ 3, 5, 1 ],
+            "uv": [ 54, 22 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1.192093e-7, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -9, 21.5, -2 ],
+            "size": [ 5, 5, 1 ],
+            "uv": [ 40, 3 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -8, 21.5, -4 ],
+            "size": [ 3, 2, 2 ],
+            "uv": [ 54, 18 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -11, 21.5, 1.329126e-9 ],
+            "size": [ 7, 7, 1 ],
+            "uv": [ 24, 0 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -8, 21.5, -2 ],
+            "size": [ 3, 3, 2 ],
+            "uv": [ 54, 13 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -7, 20.5, 2 ],
+            "size": [ 2, 2, 2 ],
+            "uv": [ 56, 3 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -9, 21.5, -6.294359e-10 ],
+            "size": [ 5, 4, 2 ],
+            "uv": [ 50, 7 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -9, 22.5, 3 ],
+            "size": [ 6, 4, 1 ],
+            "uv": [ 32, 8 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -10, 20.5, 2 ],
+            "size": [ 6, 7, 1 ],
+            "uv": [ 32, 8 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -8, 21.5, 4 ],
+            "size": [ 4, 3, 1 ],
+            "uv": [ 54, 44 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -8, 21.5, 2 ],
+            "size": [ 4, 3, 1 ],
+            "uv": [ 54, 14 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -7, 19.5, 2 ],
+            "size": [ 2, 1, 1 ],
+            "uv": [ 58, 1 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Slymime": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 32, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -5.117459e-17, 32, 2.74624e-7 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 4, 6 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1.192093e-7, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.StrongholdMonarch": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 22, -3 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 20, 62 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 22, 2 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 62 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -2, 32, -5 ],
+            "size": [ 1, 3, 1 ],
+            "uv": [ 44, 57 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3, 32, -5 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 57 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 31, -5 ],
+            "size": [ 4, 1, 1 ],
+            "uv": [ 52, 18 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 32, -3 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 53 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 1, 32, -5 ],
+            "size": [ 1, 4, 1 ],
+            "uv": [ 40, 56 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 2, 32, -5 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 57 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 1, 31, -5 ],
+            "size": [ 4, 1, 1 ],
+            "uv": [ 52, 16 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 32, -3 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 53 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -5, 31, -4 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 55 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 31, -4 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 55 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -8, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 12, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 48, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -1.192093e-7, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -3, 22, 2 ],
+            "size": [ 6, 2, 1 ],
+            "uv": [ 12, 49 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3.015039e-11, 19, 2 ],
+            "size": [ 2, 3, 1 ],
+            "uv": [ 26, 48 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3, 20, 2 ],
+            "size": [ 2, 2, 1 ],
+            "uv": [ 32, 49 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -3, 18, 2 ],
+            "size": [ 1, 2, 1 ],
+            "uv": [ 38, 49 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 22, -3 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 20, 62 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 22, 2 ],
+            "size": [ 1, 1, 1 ],
+            "uv": [ 16, 62 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 4, 23, -3 ],
+            "size": [ 5, 2, 6 ],
+            "uv": [ 16, 53 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -9, 23, -3 ],
+            "size": [ 5, 2, 6 ],
+            "uv": [ 16, 53 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 15, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "normal",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.StrongholdSeer": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 16, 48 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 48 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 23, 4 ],
+            "size": [ 14, 8, 1 ],
+            "uv": [ 32, 55 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -10, 23, 4 ],
+            "size": [ 3, 6, 1 ],
+            "uv": [ 24, 1 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 7, 23, 4 ],
+            "size": [ 3, 6, 1 ],
+            "uv": [ 32, 1 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 0, 23, 2 ],
+            "size": [ 10, 1, 2 ],
+            "uv": [ 32, 49 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -10, 23, 2 ],
+            "size": [ 10, 1, 2 ],
+            "uv": [ 32, 52 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.Swindler": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 30, -6 ],
+            "size": [ 14, 1, 12 ],
+            "uv": [ 0, 51 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -4, 32, -4 ],
+            "size": [ 4, 2, 4 ],
+            "uv": [ 40, 57 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 0, 32, -4 ],
+            "size": [ 4, 2, 4 ],
+            "uv": [ 48, 57 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ 0, 32, 0 ],
+            "size": [ 4, 2, 4 ],
+            "uv": [ 48, 49 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -4, 32, 0 ],
+            "size": [ 4, 2, 4 ],
+            "uv": [ 40, 49 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 22, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  },
+  "geometry.Villains.TerrorSpawner": {
+    "bones": [
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "body",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "head",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightArm",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "leftLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 16 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "base",
+        "name": "rightLeg",
+        "parent": null
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 32, 0 ],
+            "inflate": 0.5,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "hat",
+        "parent": "head"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 12, -2 ],
+            "size": [ 8, 12, 4 ],
+            "uv": [ 16, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "jacket",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -5, 31, -6 ],
+            "size": [ 10, 1, 11 ],
+            "uv": [ 0, 52 ],
+            "inflate": 0,
+            "mirror": false
+          },
+          {
+            "origin": [ -4, 32, -4 ],
+            "size": [ 8, 1, 8 ],
+            "uv": [ 31, 54 ],
+            "inflate": 0,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "armor",
+        "name": "helmet",
+        "parent": "head"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -7, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightSleeve",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 4, 11.5, -2 ],
+            "size": [ 3, 12, 4 ],
+            "uv": [ 40, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftSleeve",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -1.90055, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -4, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": false
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "rightPants",
+        "parent": "rightLeg"
+      },
+      {
+        "pivot": [ 1.9, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 4, 12, 4 ],
+            "uv": [ 0, 32 ],
+            "inflate": 0.25,
+            "mirror": true
+          }
+        ],
+        "META_BoneType": "clothing",
+        "name": "leftPants",
+        "parent": "leftLeg"
+      },
+      {
+        "pivot": [ 0, 24, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "bodyArmor",
+        "parent": "body"
+      },
+      {
+        "pivot": [ 5.001448, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "leftArmArmor",
+        "parent": "leftArm"
+      },
+      {
+        "pivot": [ -5, 21.5, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor",
+        "name": "rightArmArmor",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 0, 12, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "armor_offset",
+        "name": "waist",
+        "parent": "body"
+      },
+      {
+        "pivot": [ -6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "rightItem",
+        "parent": "rightArm"
+      },
+      {
+        "pivot": [ 6, 14.5, 1 ],
+        "rotation": [ 0, 0, 0 ],
+        "cubes": [],
+        "META_BoneType": "item",
+        "name": "leftItem",
+        "parent": "leftArm"
+      }
+    ],
+    "texturewidth": 64,
+    "textureheight": 64,
+    "META_ModelVersion": "1.0.6",
+    "rigtype": "slim",
+    "animationArmsDown": false,
+    "animationArmsOutFront": false,
+    "animationStatueOfLibertyArms": false,
+    "animationSingleArmAnimation": false,
+    "animationStationaryLegs": false,
+    "animationSingleLegAnimation": false,
+    "animationNoHeadBob": false,
+    "animationDontShowArmor": false,
+    "animationUpsideDown": false,
+    "animationInvertedCrouch": false
+  }
+}
