@@ -1,98 +1,47 @@
 {
-  "geometry.custom.turtle": {
-    "texturewidth": 64,
-    "textureheight": 64,
-    "bones": [
-      {
-        "name": "head",
-        "pivot": [ 0, 2, -4 ],
-        "cubes": [
-          {
-            "origin": [ -2, 2, -8 ],
-            "size": [ 4, 3, 4 ],
-            "uv": [ 48, 26 ],
-            "mirror": false
-          }
-        ]
-      },
-      {
-        "name": "body",
-        "pivot": [ 0, 0, -1 ],
-        "rotation": [ 0, 0, 0 ],
-        "mirror": false,
-        "neverRender": false,
-        "cubes": [
-          {
-            "origin": [ -6, 2, -4 ],
-            "size": [ 12, 4, 12 ],
-            "uv": [ 0, 16 ],
-            "mirror": false
-          },
-          {
-            "origin": [ -4, 0, -4 ],
-            "size": [ 8, 2, 12 ],
-            "uv": [ 0, 2 ],
-            "mirror": false
-          },
-          {
-            "origin": [ -1.5, 3, 7.5 ],
-            "size": [ 3, 1, 4 ],
-            "uv": [ 48, 21 ],
-            "mirror": false
-          }
-        ]
-      },
-      {
-        "name": "arms",
-        "pivot": [ 0, 16, -15 ],
-        "rotation": [ 40, 0, 0 ],
-        "mirror": false,
-        "neverRender": false,
-        "cubes": [
-          {
-            "origin": [ -11, 0.5, -3 ],
-            "size": [ 7, 3, 1 ],
-            "uv": [ 40, 12 ],
-            "mirror": false
-          },
-          {
-            "origin": [ 4, 0.5, -3 ],
-            "size": [ 7, 3, 1 ],
-            "uv": [ 40, 12 ],
-            "mirror": false
-          }
-        ]
-      },
-      {
-        "name": "leftLeg",
-        "pivot": [ -3.5, 2.5, 8 ],
-        "rotation": [ 0, 0, 0 ],
-        "mirror": false,
-        "neverRender": false,
-        "cubes": [
-          {
-            "origin": [ -4.5, 2, 8 ],
-            "size": [ 2, 1, 2 ],
-            "uv": [ 48, 18 ],
-            "mirror": false
-          }
-        ]
-      },
-      {
-        "name": "rightLeg",
-        "pivot": [ 3.5, 2.5, 8 ],
-        "rotation": [ 0, 0, 0 ],
-        "mirror": false,
-        "neverRender": false,
-        "cubes": [
-          {
-            "origin": [ 2.5, 2, 8 ],
-            "size": [ 2, 1, 2 ],
-            "uv": [ 48, 18 ],
-            "mirror": false
-          }
-        ]
-      }
-    ]
-  }
+	"geometry.custom.turtle": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"bones": [
+			{
+				"name": "head",
+				"pivot": [0, 2, -4],
+				"cubes": [
+					{"origin": [-2, 2, -8], "size": [4, 3, 4], "uv": [48, 26]}
+				]
+			},
+			{
+				"name": "body",
+				"pivot": [0, 0, -1],
+				"cubes": [
+					{"origin": [-6, 2, -4], "size": [12, 4, 12], "uv": [0, 16]},
+					{"origin": [-4, 0, -4], "size": [8, 2, 12], "uv": [0, 2]},
+					{"origin": [-1.5, 3, 7.5], "size": [3, 1, 4], "uv": [48, 21]}
+				]
+			},
+			{
+				"name": "arms",
+				"pivot": [0, 16, -15],
+				"rotation": [40, 0, 0],
+				"cubes": [
+					{"origin": [-11, 0.5, -3], "size": [7, 3, 1], "uv": [40, 12]},
+					{"origin": [4, 0.5, -3], "size": [7, 3, 1], "uv": [40, 12]}
+				]
+			},
+			{
+				"name": "leftLeg",
+				"pivot": [-3.5, 2.5, 8],
+				"cubes": [
+					{"origin": [-4.5, 2, 8], "size": [2, 1, 2], "uv": [48, 18]}
+				]
+			},
+			{
+				"name": "rightLeg",
+				"pivot": [3.5, 2.5, 8],
+				"cubes": [
+					{"origin": [2.5, 2, 8], "size": [2, 1, 2], "uv": [48, 18]}
+				]
+			}
+		]
+	}
 }
