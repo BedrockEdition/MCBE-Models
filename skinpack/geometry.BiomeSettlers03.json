@@ -1,114 +1,168 @@
 {
 	"geometry.BiomeSettlers03.EndArcher": {
-		"texturewidth": 64,
-		"textureheight": 64,
 		"bones": [
 			{
+				"pivot": [0, 24, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 16], "inflate": 0, "mirror": false}
+				],
+				"META_BoneType": "base",
 				"name": "body",
-				"pivot": [0, 24, 0],
-				"cubes": [
-					{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 16]}
-				]
+				"parent": null
 			},
 			{
+				"pivot": [0, 24, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0], "inflate": 0, "mirror": false}
+				],
+				"META_BoneType": "base",
 				"name": "head",
-				"pivot": [0, 24, 0],
-				"cubes": [
-					{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]}
-				]
+				"parent": null
 			},
 			{
+				"pivot": [0, 24, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [],
+				"META_BoneType": "clothing",
 				"name": "hat",
-				"pivot": [0, 24, 0]
+				"parent": "head"
 			},
 			{
+				"pivot": [5, 22, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [32, 48], "inflate": 0, "mirror": false}
+				],
+				"META_BoneType": "base",
 				"name": "leftArm",
-				"pivot": [5, 22, 0],
-				"cubes": [
-					{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [32, 48]}
-				]
+				"parent": null
 			},
 			{
+				"pivot": [-5, 22, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 16], "inflate": 0, "mirror": false}
+				],
+				"META_BoneType": "base",
 				"name": "rightArm",
-				"pivot": [-5, 22, 0],
-				"cubes": [
-					{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 16]}
-				]
+				"parent": null
 			},
 			{
-				"name": "leftSleeve",
 				"pivot": [5, 22, 0],
+				"rotation": [0, 0, 0],
 				"cubes": [
-					{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [48, 48], "inflate": 0.25}
-				]
+					{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [48, 48], "inflate": 0.25, "mirror": false}
+				],
+				"META_BoneType": "clothing",
+				"name": "leftSleeve",
+				"parent": "leftArm"
 			},
 			{
-				"name": "rightSleeve",
 				"pivot": [-5, 22, 0],
+				"rotation": [0, 0, 0],
 				"cubes": [
-					{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 32], "inflate": 0.25}
-				]
+					{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 32], "inflate": 0.25, "mirror": false}
+				],
+				"META_BoneType": "clothing",
+				"name": "rightSleeve",
+				"parent": "rightArm"
 			},
 			{
+				"pivot": [1.9, 12, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "uv": [16, 48], "inflate": 0, "mirror": false}
+				],
+				"META_BoneType": "base",
 				"name": "leftLeg",
-				"pivot": [1.9, 12, 0],
-				"cubes": [
-					{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "uv": [16, 48]}
-				]
+				"parent": null
 			},
 			{
+				"pivot": [-1.9, 12, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "uv": [0, 16], "inflate": 0, "mirror": false}
+				],
+				"META_BoneType": "base",
 				"name": "rightLeg",
-				"pivot": [-1.9, 12, 0],
-				"cubes": [
-					{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "uv": [0, 16]}
-				]
+				"parent": null
 			},
 			{
-				"name": "leftPants",
 				"pivot": [1.9, 12, 0],
+				"rotation": [0, 0, 0],
 				"cubes": [
-					{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "uv": [0, 48], "inflate": 0.25}
-				]
+					{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "uv": [0, 48], "inflate": 0.25, "mirror": false}
+				],
+				"META_BoneType": "clothing",
+				"name": "leftPants",
+				"parent": "leftLeg"
 			},
 			{
-				"name": "rightPants",
 				"pivot": [-1.9, 12, 0],
+				"rotation": [0, 0, 0],
 				"cubes": [
-					{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "uv": [0, 32], "inflate": 0.25}
-				]
+					{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "uv": [0, 32], "inflate": 0.25, "mirror": false}
+				],
+				"META_BoneType": "clothing",
+				"name": "rightPants",
+				"parent": "rightLeg"
 			},
 			{
+				"pivot": [0, 24, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 32], "inflate": 0.25, "mirror": false}
+				],
+				"META_BoneType": "clothing",
 				"name": "jacket",
-				"pivot": [0, 24, 0],
-				"cubes": [
-					{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 32], "inflate": 0.25}
-				]
+				"parent": "body"
 			},
 			{
+				"pivot": [0, 24, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [
+					{"origin": [4, 24, -3], "size": [1, 6, 7.00016], "uv": [47, 2], "inflate": 0, "mirror": false},
+					{"origin": [-5, 24, -3], "size": [1, 6, 7.00015], "uv": [47, 2], "inflate": 0, "mirror": false},
+					{"origin": [-4, 28, -5], "size": [1, 1, 1], "uv": [24, 6], "inflate": 0, "mirror": false},
+					{"origin": [3, 28, -5], "size": [1, 1, 1], "uv": [24, 6], "inflate": 0, "mirror": false},
+					{"origin": [-3.00016, 25, -5.00034], "size": [6.00042, 6, 1.00069], "uv": [32, 8], "inflate": 0, "mirror": false},
+					{"origin": [-3.0002, 32, -3], "size": [6.00032, 1, 6.00001], "uv": [28, 1], "inflate": 0, "mirror": false}
+				],
+				"META_BoneType": "armor",
 				"name": "helmet",
-				"pivot": [0, 24, 0],
-				"cubes": [
-					{"origin": [4, 24, -3], "size": [1, 6, 7.00016], "uv": [47, 2]},
-					{"origin": [-5, 24, -3], "size": [1, 6, 7.00015], "uv": [47, 2]},
-					{"origin": [-4, 28, -5], "size": [1, 1, 1], "uv": [24, 6]},
-					{"origin": [3, 28, -5], "size": [1, 1, 1], "uv": [24, 6]},
-					{"origin": [-3.00016, 25, -5.00034], "size": [6.00042, 6, 1.00069], "uv": [32, 8]},
-					{"origin": [-3.0002, 32, -3], "size": [6.00032, 1, 6.00001], "uv": [28, 1]}
-				]
+				"parent": "head"
 			},
 			{
+				"pivot": [0, 12, 0],
+				"rotation": [0, 0, 0],
+				"cubes": [],
+				"META_BoneType": "armor_offset",
 				"name": "waist",
-				"pivot": [0, 12, 0]
+				"parent": "body"
 			},
 			{
+				"pivot": [-6, 15, 1],
+				"rotation": [0, 0, 0],
+				"cubes": [],
+				"META_BoneType": "item",
 				"name": "rightItem",
-				"pivot": [-6, 15, 1]
+				"parent": "rightArm"
 			},
 			{
+				"pivot": [6, 15, 1],
+				"rotation": [0, 0, 0],
+				"cubes": [],
+				"META_BoneType": "item",
 				"name": "leftItem",
-				"pivot": [6, 15, 1]
+				"parent": "leftArm"
 			}
-		]
+		],
+		"texturewidth": 64,
+		"textureheight": 64,
+		"META_ModelVersion": "1.0.6",
+		"rigtype": "normal"
 	},
 	"geometry.BiomeSettlers03.EndBrawler": {
 		"bones": [
