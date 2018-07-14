@@ -1,5 +1,5 @@
 {
-  "custom.creeper": {
+  "geometry.custom.creeper": {
     "bones": [
       {
         "name": "head",

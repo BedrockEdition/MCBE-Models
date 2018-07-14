@@ -1,5 +1,5 @@
 {
-  "custom.onlyhead": {
+  "geometry.custom.onlyhead": {
     "bones": [
       {
         "name": "head",

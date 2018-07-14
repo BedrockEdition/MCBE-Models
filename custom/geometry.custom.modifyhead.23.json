@@ -1,17 +1,32 @@
 {
-  "custom.modifyhead.twin": {
+  "geometry.custom.modifyhead.23": {
     "bones": [
       {
         "name": "head",
         "pivot": [ 0, 24, 0 ],
         "cubes": [
           {
-            "origin": [ -9, 24, -4 ],
+            "origin": [ -13, 24, -4 ],
             "size": [ 8, 8, 8 ],
             "uv": [ 0, 0 ]
           },
           {
-            "origin": [ 1, 24, -4 ],
+            "origin": [ -4, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ]
+          },
+          {
+            "origin": [ 5, 24, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ]
+          },
+          {
+            "origin": [ -9, 33, -4 ],
+            "size": [ 8, 8, 8 ],
+            "uv": [ 0, 0 ]
+          },
+          {
+            "origin": [ 1, 33, -4 ],
             "size": [ 8, 8, 8 ],
             "uv": [ 0, 0 ]
           }
@@ -22,13 +37,31 @@
         "pivot": [ 0, 24, 0 ],
         "cubes": [
           {
-            "origin": [ -9, 24, -4 ],
+            "origin": [ -13, 24, -4 ],
             "inflate": 0.5,
             "uv": [ 32, 0 ],
             "size": [ 8, 8, 8 ]
           },
           {
-            "origin": [ 1, 24, -4 ],
+            "origin": [ -4, 24, -4 ],
+            "inflate": 0.5,
+            "uv": [ 32, 0 ],
+            "size": [ 8, 8, 8 ]
+          },
+          {
+            "origin": [ 5, 24, -4 ],
+            "inflate": 0.5,
+            "uv": [ 32, 0 ],
+            "size": [ 8, 8, 8 ]
+          },
+          {
+            "origin": [ -9, 33, -4 ],
+            "inflate": 0.5,
+            "uv": [ 32, 0 ],
+            "size": [ 8, 8, 8 ]
+          },
+          {
+            "origin": [ 1, 33, -4 ],
             "inflate": 0.5,
             "uv": [ 32, 0 ],
             "size": [ 8, 8, 8 ]

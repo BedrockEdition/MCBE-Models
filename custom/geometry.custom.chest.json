@@ -1,5 +1,5 @@
 {
-  "custom.chest": {
+  "geometry.custom.chest": {
     "bones": [
       {
         "name": "body",

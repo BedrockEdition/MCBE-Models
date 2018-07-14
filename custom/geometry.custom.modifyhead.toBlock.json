@@ -1,5 +1,5 @@
 {
-  "custom.modifyhead.toBlock": {
+  "geometry.custom.modifyhead.toBlock": {
     "bones": [
       {
         "name": "head",

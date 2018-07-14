@@ -1,5 +1,5 @@
 {
-  "custom.block": {
+  "geometry.custom.block": {
     "bones": [
       {
         "name": "head",
